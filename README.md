@@ -1,5 +1,7 @@
 Функциональные компоненты с хуками в приоритете над классовыми.
+
 Есть четкое разделение на умные и глупые компоненты ([умный](https://github.com/StillMortal/aston-react-2022/tree/master/src/components/Profile) и [глупый](https://github.com/StillMortal/aston-react-2022/tree/master/src/components/Profile/Cards/Card))
+
 Есть рендеринг списков (https://ru.reactjs.org/docs/lists-and-keys.html)
 Реализована хотя бы одна форма (https://ru.reactjs.org/docs/forms.html)
 Есть применение Контекст API (https://ru.reactjs.org/docs/context.html)
