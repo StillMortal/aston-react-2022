@@ -13,3 +13,5 @@
 Есть хотя бы один [кастомный хук](https://github.com/StillMortal/aston-react-2022/blob/master/src/components/Profile/SearchBar/use-debounce.js)
 
 Поиск не должен триггерить много запросов к серверу (реализован [debounce](https://github.com/StillMortal/aston-react-2022/blob/master/src/components/Profile/SearchBar/SearchBar.jsx))
+
+## Redux
