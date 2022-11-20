@@ -24,10 +24,34 @@
 
 .searchButton {
     border: 1px solid #00B4CC;
+    padding: 5px;
+    border-radius: 5px 0 0 5px;
+    height: 36px;
     background: #00B4CC;
     text-align: center;
     color: #fff;
-    border-radius: 0 5px 5px 0;
     cursor: pointer;
     font-size: 20px;
+}
+
+.searching {
+    border: 1px solid #00B4CC;
+    padding: 5px;
+    border-radius: 5px 0 0 5px;
+    height: 36px;
+    background: #00B4CC;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.cards {
+    grid-area: content;
+    display: grid;
+
+    grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
+    gap: 1em;
+    grid-auto-rows: 1fr;
+
 }

@@ -22,7 +22,8 @@
 }
 
 .header a:hover {
-    background-color: #aaa;
+    /*background-color: #aaa;*/
+    background-color: #1eff78;
     color: black;
 }
 

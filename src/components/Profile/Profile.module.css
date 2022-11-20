@@ -6,7 +6,7 @@
 
     grid-template-areas:
   "search-bar"
-  "cards";
+  "content";
 }
 
 .content div {

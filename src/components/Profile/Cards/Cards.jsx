@@ -2,7 +2,7 @@ import {useEffect, useState} from 'react';
 import classes from "./Cards.module.css";
 import Card from "./Card/Card.jsx";
 
-function Cards() {
+function Cards(props) {
     const options = {
         method: 'GET',
         headers: {
@@ -11,7 +11,7 @@ function Cards() {
         }
     };
 
-    const API = 'https://rawg-video-games-database.p.rapidapi.com/publishers?key=aee197aa8504457b8e0ec37e32515d78'
+    const API = 'https://rawg-video-games-database.p.rapidapi.com/publishers?key=aee197aa8504457b8e0ec37e32515d78&page_size=40'
 
     const [data, setData] = useState();
 
@@ -27,10 +27,19 @@ function Cards() {
     }, []);
 
     if (data) {
-        console.log(data)
+        // console.log(data)
         return (
             <div className={classes.cards}>
-                {data.results.map(publisher => <Card publisher={publisher.name}/>)}
+                {
+                    props.favorites
+                        ? data.results.map(publisher => {
+                                if (localStorage.getItem(publisher.id)) {
+                                    return <Card publisher={publisher}/>
+                                }
+                            }
+                        )
+                        : data.results.map(publisher => <Card publisher={publisher}/>)
+                }
             </div>
         );
     }
