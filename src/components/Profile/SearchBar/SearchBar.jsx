@@ -25,9 +25,6 @@ function SearchBar() {
         [debouncedSearchTerm]
     );
 
-    // const handleSearch = () => {
-    //     {window.location.replace("/search")}
-    // }
     return (
         <div className={classes.search}>
             <input
@@ -36,23 +33,11 @@ function SearchBar() {
                 placeholder="What page do you need?"
                 onChange={e => setSearchTerm(e.target.value)}
             />
-            {/*<button onClick={handleSearch} className={classes.searchButton}>Search</button>*/}
-            {/*{isSearching && <div>Searching ...</div>}*/}
             {
                 !isSearching
                     ? <NavLink to="/search" state={{from: results}} className={classes.searchButton}>Search</NavLink>
                     : <div className={classes.searching}>Searching ...</div>
             }
-
-
-            {/*{isSearching && <div>Searching ...</div>}*/}
-
-            {/*<div className={classes.cards}>*/}
-            {/*    {results.map(publisher => <Card publisher={publisher}/>)}*/}
-            {/*</div>*/}
-
-            {/*<Cards search={true} results={results}/>*/}
-
         </div>
     );
 }
