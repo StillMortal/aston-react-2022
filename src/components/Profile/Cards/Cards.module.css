@@ -1,0 +1,12 @@
+/* https://css-tricks.com/creating-animated-clickable-cards-with-the-has-relational-pseudo-class/ */
+
+.cards {
+    grid-area: content;
+    display: grid;
+
+    grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
+    gap: 1em;
+    grid-auto-rows: 1fr;
+
+}
+
