@@ -10,6 +10,4 @@
 
 Есть хотя бы один [кастомный хук](https://github.com/StillMortal/aston-react-2022/blob/master/src/components/Profile/SearchBar/use-debounce.js)
 
-Хотя бы несколько компонентов используют PropTypes (https://ru.reactjs.org/docs/typechecking-with-proptypes.html)
-Поиск не должен триггерить много запросов к серверу (https://ru.reactjs.org/docs/faq-functions.html#how-can-i-prevent-a-function-from-being-called-too-quickly-or-too-many-times-in-a-row)
-Есть применение lazy + Suspense (https://ru.reactjs.org/docs/code-splitting.html#route-based-code-splitting)
+Поиск не должен триггерить много запросов к серверу (реализован [debounce](https://github.com/StillMortal/aston-react-2022/blob/master/src/components/Profile/SearchBar/SearchBar.jsx))
