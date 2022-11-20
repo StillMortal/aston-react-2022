@@ -1,3 +1,5 @@
+## React
+
 Функциональные компоненты с хуками в приоритете над классовыми.
 
 Есть четкое разделение на умные и глупые компоненты ([умный](https://github.com/StillMortal/aston-react-2022/tree/master/src/components/Profile) и [глупый](https://github.com/StillMortal/aston-react-2022/tree/master/src/components/Profile/Cards/Card))
