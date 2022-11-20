@@ -4,7 +4,7 @@
 
 Есть рендеринг списков [1](https://github.com/StillMortal/aston-react-2022/blob/master/src/components/Profile/Cards/Cards.jsx), [2](https://github.com/StillMortal/aston-react-2022/blob/master/src/components/Search/Search.jsx)
 
-Реализована хотя бы одна форма (https://ru.reactjs.org/docs/forms.html)
+Реализована хотя бы одна форма [SignUp](https://github.com/StillMortal/aston-react-2022/blob/master/src/components/SignUp/SignUp.jsx), [SignIn](https://github.com/StillMortal/aston-react-2022/blob/master/src/components/SignIn/SignIn.jsx), [SearchBar](https://github.com/StillMortal/aston-react-2022/blob/master/src/components/Profile/SearchBar/SearchBar.jsx)
 
 Есть применение Контекст API (https://ru.reactjs.org/docs/context.html)
 Есть применение предохранителя (https://ru.reactjs.org/docs/error-boundaries.html)
